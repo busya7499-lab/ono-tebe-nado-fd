@@ -109,10 +109,13 @@
   width: 148px;
 }
 
+.header .address {
+  justify-self: end;
+}
+
 .address {
   display: flex;
   flex-direction: column;
-  justify-self: end;
 
   font-style: normal;
   font-size: 18px;
@@ -146,8 +149,7 @@
 }
 
 .lots__card-list-item {
-  display: flex;
-  flex: 0 1 334px;
+  flex: 0 0 334px;
 }
 
 .card-link {
@@ -247,7 +249,7 @@
 }
 
 .about-auction__title {
-  margin: 95px 0 100px;
+  margin: 95px 0 40px;
 
   font-size: 40px;
   line-height: 1;
