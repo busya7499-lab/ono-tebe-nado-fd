@@ -26,7 +26,7 @@
 .cover__title {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 0px;
   color: white;
   font-size: 100px;
   font-weight: 700;
@@ -54,18 +54,38 @@
 }
 
 .cover__description-text {
+  margin: 0;
+
   color: white;
-  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  word-spacing: 20px;
   text-transform: uppercase;
 }
 
 .bet-button {
-  padding: 12px 32px;
+  box-sizing: border-box;
+  width: 256px;
+  height: 51px;
+
+  padding: 0;
+
   border: 1px solid white;
   background: transparent;
+
   color: white;
-  font-size: 18px;
+
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0;
+
+  text-align: center;
   text-transform: uppercase;
+
   cursor: pointer;
 }
 
@@ -128,7 +148,7 @@
 }
 
 .lots {
-  padding: 180px 24px 120px;
+  padding: 180px 24px 107px;
 }
 
 .lots__heading {
@@ -223,13 +243,11 @@
 
 .about-auction {
   width: 1052px;
-  margin: 0 24px 178px;
+  margin: 0 24px 180px;
+  padding-bottom: 41px;
 
   display: grid;
   grid-template-columns: 359px 1fr;
-
-
-  margin: 35px 47px;
 
   background-color: #fff;
   color: #000;
@@ -279,8 +297,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
-
-  padding: 50px;
+  padding: 42px 50px;
 }
 
 .footer-nav {
