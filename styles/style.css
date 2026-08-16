@@ -299,6 +299,7 @@
 
   width: 240px;
   height: 240px;
+  margin: 35px 0 0 47px;
 
   border-radius: 50%;
   background-color: #000;
@@ -310,7 +311,7 @@
 }
 
 .about-auction__title {
-  margin: 100px 0 101px;
+  margin: 0 0 96px;
 
   font-size: 40px;
   line-height: 1;
@@ -329,6 +330,8 @@
 .about-auction__content {
   display: flex;
   flex-direction: column;
+  align-self: start;
+  margin-top: 133px;
 }
 
 .site-footer {
